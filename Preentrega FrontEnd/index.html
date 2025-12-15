@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Huellas Store</title>
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+
+    <main>
+        <section class="login-box">
+
+            <img src="media/img/logo1.png" alt="Logo de la página" class="login-logo">
+
+
+            <h2 class="login-title">Iniciar sesión</h2>
+
+            <!-- Errores -->
+            <div id="empty_email" class="error"></div>
+            <div id="empty_psw" class="error"></div>
+            <div id="login_error" class="error"></div>
+
+            <form id="form_login" class="login-form" novalidate>
+
+                <input 
+                    id="id_mail" 
+                    type="email" 
+                    class="input-field" 
+                    placeholder="Ingrese su email"
+                >
+
+                <input 
+                    id="id_psw" 
+                    type="password" 
+                    class="input-field" 
+                    name="pass" 
+                    placeholder="Ingrese su contraseña"
+                >
+
+                <button id="btn_login" class="btn-login">Ingresar</button>
+            </form>
+
+        </section>
+    </main>
+
+    <script src="js/index.js"></script>
+</body>
+</html>
